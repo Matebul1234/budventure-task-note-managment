@@ -26,3 +26,27 @@ Clone the Repository
 bash:: 
 
 git clone https://github.com/Matebul1234/budventure-task-note-managment
+
+after clone
+Now 
+open code any IDE like VS Code etc 
+
+set .env file
+this backend .env variable :: 
+VITE_API_BASE_URL=http://localhost:8080
+
+and this is the frontend .env variables :: 
+PORT=8080
+MONGODB_CONECTION="t/"
+JWT_SECRET=your-secret-key
+ENCRYPTION_SECRET=your_32_char_secret_here     /// note: it is required to 32 characters here
+
+
+-> open terminal and write this command 
+cd backend 
+npm install or npm i 
+npm start
+
+cd frontend
+npm install or npm i
+npm run dev or npm start  // I already set the npm start command to start UI in the Browser
